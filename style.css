@@ -1,0 +1,375 @@
+/* red-color: #E45642, gray-color: 	#5D4C45, cream-color: #F3ECD9, orange-color: #F0A94D */
+
+body {
+    background-color: rgb(192, 192, 176);
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    margin-top: 5px;
+    height: 60px;
+    width: 50px;
+    margin-left: 20px;
+    background-image: url("images/cab.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+h1 {
+    font-family: "monospace";
+    padding-top: 3px;
+    color: rgb(104, 8, 8);
+    margin: 0;
+    display: block;
+    margin-left: 80px;
+}
+
+h4 {
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: rgb(253, 218, 215);
+    margin: 0;
+    font-family: fantasy;
+    margin-left: 80px;
+}
+
+#wrapper{
+    width: 992px;
+    height: 1315px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    height: 70px;
+    /* text-align: center; */
+    font-size: 15px;
+    background-color: rgb(209, 49, 21);
+    float: none;
+    width: auto;
+}
+
+#heading {
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #5D4C45;
+    width: auto;
+}
+
+a:hover {
+    color: rgb(167, 230, 255);
+}
+
+nav a {
+    color: rgb(235, 233, 233);
+}
+#space {
+    height: 10px;
+    width: 1px
+}
+
+#cabinet {
+    height: 430px;
+    background-size: cover;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    border: black solid 30px;
+}
+
+#box1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 300px;
+    width: 550px;
+    background-color:#F3ECD9;
+}
+
+#con {
+    border: solid black;
+    float: right;
+    clear: both;
+    margin-right: 45px;
+    margin-top: -302px;
+    margin-bottom: 50px;
+    height: 298px;
+    width: 323px;
+    background-image: url("images/cabinetry.jpg");
+    background-size: cover;
+}
+
+#break {
+    width: 900px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: #5D4C45;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#box2 {
+    margin-top: -10px;
+    margin-left: 50px;
+    height: 310px;
+    width: 900px;
+    background-color:#F3ECD9;  
+}
+
+#spacing {
+    padding-top: 30px;
+}
+
+footer {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #5D4C45;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#bkd {
+    height: 300px;
+    width: 63%;
+    background-color: #F3ECD9;
+    margin-left: 34%; 
+}
+
+#cov {
+   height: 210px;
+   margin-bottom: 0px;
+   width: 992px;
+   background-color: white;
+}
+
+#bot {
+    height: 100px;
+    width: 900px;
+    margin-left: 50px;
+    margin-top: -58px;
+    background-color: #F3ECD9;
+}
+
+#contactUs {
+    background-image: url("images/contact.jpg");
+    background-size: cover;
+    border: solid black 3px;
+    height: 294px;
+    width: 28%;
+    float: left;
+    clear: both;
+    margin-left: 20px;
+}
+#b1 {
+    height: 500px;
+}
+#endp {
+    height: 225px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 300px;
+    background-color:#F3ECD9;
+}
+
+#about {
+    background-image: url("images/about.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    border: solid black 5px;
+    
+}
+
+@media only screen and (max-width: 992px) {
+    #wrapper {
+        width: 768px;
+        height: 1300px;
+    }
+    #cov {
+        height: 200px;
+        width: 768px;
+        background-color: white;
+     }
+    #bot {
+        margin-left: 25px;
+        width: 710px;
+    }
+    #b2 {
+        font-size: 20px;
+    }
+
+    #box1 {
+        width: 330px;
+    }
+    #break {
+        width: 670px;
+    }
+    #box2 {
+        width: 670px;
+        height: 300px;
+    }
+    p {
+        font-size: 20px;
+    }
+    #spacing {
+        font-size: 16px;
+    }
+}
+
+picture {
+    width: 60%;
+}
+
+#b1 {
+    height:500px;
+    width:98%;
+    font-size: 20px;
+    background-color:#F3ECD9;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        width: 100%;
+        height: 1705px;
+    }
+    #cov {
+        height: 200px;
+        width: 100%;
+        background-color: white;
+     }
+    #bot {
+        margin-left: 25px;
+        width: 90%;
+    }
+    #endp {
+        margin-left: 15px;
+    }
+    #comments {
+        width: 30em;
+    }
+    #contactUs {
+        float: none;
+        width: 400px;
+    }
+    #bkd {
+        margin-left: 20px;
+        width: 400px;
+        height: 370px;
+    }
+    #heading {
+        margin-left: 20px;
+    }
+
+    #cabinet{
+        position: static;
+        width: 100%-30px;
+        height: 300px;
+        padding: 0;
+    }
+    #con{
+        border: solid 2px black;
+        float: none;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    #box1 {
+        width: 93%;
+        margin-left: 3%;
+    }
+    #box2 {
+        margin-left: 3%;
+        width: 93%;
+        height: 475px;
+    }
+    #break {
+        width: 93%;
+        margin-left: 3%;
+    }
+    p {
+        font-size: 18px;
+    }
+    #spacing {
+        font-size: 19px;
+    }
+    #b1 {
+        height: 600px;
+        margin-left: 5px;
+    }
+  }
+
+
+#formSpot {
+    width: 40%;
+    height: 200px;
+    /* margin: auto; */
+    margin-left: 5%;
+    display: block;
+}
+/* 
+  @media only screen and (max-width: 440px) {
+    #wrapper {
+        width: 200px;
+        height: 1210px;
+    }
+    #logo {
+        margin-left: 50px;
+        display: none;
+    }
+    #cabinet{
+        display: none;
+    }
+    #con{
+        display: none;
+    }
+    #box1 {
+        width: 150px;
+        height: 380px;
+        margin-left: 25px;
+    }
+    #box2 {
+        margin-top: 10px;
+        margin-left: 25px;
+        width:150px;
+        height: 640px;
+    }
+    #break {
+        width: 150px;
+        margin-left: 25px;
+    }
+    h1, h3 {
+        font-size: 20px;
+    }
+    nav {
+        font-size: 10px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 12px;
+    } */
